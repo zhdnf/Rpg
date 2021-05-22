@@ -14,4 +14,11 @@ public class Item : ScriptableObject
     public Sprite icon = null;
     public bool isDefaultItem = false;
 
+    public virtual void Use()
+    {
+        // use the item
+        // something might happen
+
+        Debug.Log("Using" + name);
+    }
 }
