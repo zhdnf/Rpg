@@ -33,6 +33,7 @@ public class Interactable : MonoBehaviour
             if(distance <= radius)
             {
                 Debug.Log("Interaction!!");
+                Interact();
                 hasInteracted = true;
             }
         }
@@ -54,6 +55,9 @@ public class Interactable : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        if (interactionTransform == null)
+            interactionTransform = this.transform;
+
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(interactionTransform.position, radius);
     }
