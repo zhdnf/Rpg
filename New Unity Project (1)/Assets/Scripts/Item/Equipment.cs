@@ -17,7 +17,7 @@ public class Equipment : Item
     public EquipmentMeshRegion[] coveredMeshRegions;
 
 
-    public int armorModifier;
+    public int armourModifier;
     public int damageModifier;
 
 
