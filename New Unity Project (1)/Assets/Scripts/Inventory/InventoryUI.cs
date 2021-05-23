@@ -32,7 +32,6 @@ public class InventoryUI : MonoBehaviour
         {
             inventoryUI.SetActive(!inventoryUI.activeSelf);
         }
-        Debug.Log("213");
     }
 
     public void UpdateUI()
