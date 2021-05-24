@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 131dd167396304b4b93fc998a0358a4b, type: 3}
-  m_Name: Hair
+  m_Name: Shield
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  isDefaultItem: 1
-  equipSlot: 0
-  mesh: {fileID: 8346905826555297981, guid: 5be9a529117e33842b55c32a5a8998ab, type: 3}
+  icon: {fileID: 21300000, guid: 95c0abe3b1a37ad47b990c21e9fb3d02, type: 3}
+  isDefaultItem: 0
+  equipSlot: 4
+  mesh: {fileID: 3353332572392237853, guid: 173738242ea2cb04a8d318fbd0d8bae3, type: 3}
   coveredMeshRegions: 
-  armourModifier: 0
+  armourModifier: 3
   damageModifier: 0

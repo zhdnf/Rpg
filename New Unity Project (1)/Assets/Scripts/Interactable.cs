@@ -34,7 +34,7 @@ public class Interactable : MonoBehaviour
             {
                 Debug.Log("Interaction!!");
                 Interact();
-                hasInteracted = true;
+                //hasInteracted = true;
             }
         }
     }

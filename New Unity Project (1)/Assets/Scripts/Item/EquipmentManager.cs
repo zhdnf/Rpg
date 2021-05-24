@@ -22,8 +22,10 @@ public class EquipmentManager : MonoBehaviour
     public Equipment[] defaultItem;
 
     public SkinnedMeshRenderer targetMesh;
+    public SkinnedMeshRenderer weaponTargetMesh;
+    public SkinnedMeshRenderer shieldTargetMesh;
     Equipment[] currentEquipment;
-    SkinnedMeshRenderer[] currentMeshes;
+    SkinnedMeshRenderer[] currentMeshes; 
 
     public delegate void OnEquipmentChanged(Equipment newItem, Equipment oldItem);
     public OnEquipmentChanged onEquipmentChanged;
